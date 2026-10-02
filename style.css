@@ -118,4 +118,6 @@ footer i{display:block;width:120px;aspect-ratio:509/372;background:var(--logo) c
 .tec li:last-child{border-bottom:1px solid rgba(27,28,30,.15)}
 .tec h3{font:400 1.5rem var(--serif);margin-bottom:.2rem}
 .tec p{font-size:.95rem;color:#5f5e5b}
+.insta{display:inline-flex;align-items:center;gap:.6rem;margin-top:.4rem;padding:.8rem 1.4rem;border:1px solid rgba(220,220,222,.4);text-decoration:none;color:var(--s);font-size:.78rem;letter-spacing:.14em;background:rgba(255,255,255,.05);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);box-shadow:inset 0 1px 0 rgba(255,255,255,.2);transition:background .4s,color .4s,border-color .4s}
+.insta:hover{background:var(--s);color:var(--g1);border-color:var(--s)}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}.ph{clip-path:none}.rv{opacity:1;transform:none}}
